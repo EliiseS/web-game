@@ -1,3 +1,3 @@
-from setuptools import setup, find_packages
+# from setuptools import setup, find_packages
 
-setup(name='src', version='1.0', packages="src")
+# setup(name='src', version='1.0', packages="src")
