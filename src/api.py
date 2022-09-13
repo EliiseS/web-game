@@ -1,5 +1,4 @@
 from flask import Flask, render_template, redirect, request, flash, session, Markup, Response
-import random
 from src.in_memory_storage import InMemoryStorage, StorageItem
 
 app = Flask(__name__)
