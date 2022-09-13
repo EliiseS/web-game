@@ -2,5 +2,10 @@
     "python.linting.pylintArgs": [
         "--init-hook",
         "import sys; sys.path.insert(0, './')"
-    ]
+    ],
+    "python.testing.pytestArgs": [
+        "src"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }

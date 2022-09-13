@@ -19,16 +19,6 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/guess')
-def guess():
-    return render_template('guess.html')
-
-
-@app.route('/upload_image')
-def upload_images():
-    return render_template('upload_images.html')
-
-
 @app.route('/words')
 def words():
     return render_template('words.html')
