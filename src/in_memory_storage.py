@@ -1,5 +1,4 @@
 import random
-from typing import Optional
 
 from dataclasses import dataclass
 

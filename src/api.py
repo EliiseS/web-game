@@ -1,5 +1,4 @@
 from flask import Flask, render_template, redirect, request, flash, session, Markup, Response
-import random
 from src.in_memory_storage import InMemoryStorage, StorageItem
 
 app = Flask(__name__)
@@ -17,16 +16,6 @@ def inject_app_version():
 @app.route('/')
 def home():
     return render_template('home.html')
-
-
-@app.route('/guess')
-def guess():
-    return render_template('guess.html')
-
-
-@app.route('/upload_image')
-def upload_images():
-    return render_template('upload_images.html')
 
 
 @app.route('/words')
