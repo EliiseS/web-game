@@ -2,7 +2,7 @@ from flask import Flask, render_template, redirect, request, flash, session, Mar
 from src.in_memory_storage import InMemoryStorage, StorageItem
 
 app = Flask(__name__)
-app.secret_key = "f3cfe9ed8fae309f02079dbf"  # random string
+app.secret_key = "<secret>"  # random string
 
 database = InMemoryStorage()
 APP_VERSION = '0.0.1'
